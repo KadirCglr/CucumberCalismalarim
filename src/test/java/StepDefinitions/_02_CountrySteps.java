@@ -7,8 +7,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.commons.lang3.RandomStringUtils;
 
-public class
-_02_CountrySteps {
+public class _02_CountrySteps {
     LeftNav ln = new LeftNav();
     DialogContent dc = new DialogContent();
 
