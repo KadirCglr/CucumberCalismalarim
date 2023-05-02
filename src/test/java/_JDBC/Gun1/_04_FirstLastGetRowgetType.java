@@ -19,6 +19,7 @@ public class _04_FirstLastGetRowgetType extends JDBCParent {
         System.out.println("ilk satır şehir adı="+rs.getString(1));
 
         rs.last();
+
         int kacinciSatirdayim = rs.getRow(); // kaçıncı satırda oluğumu verir.
         System.out.println("kacinciSatirdayim = " + kacinciSatirdayim);
     }
